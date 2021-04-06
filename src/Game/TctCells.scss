@@ -1,0 +1,12 @@
+.TctCell{
+    background-color:white;     
+    height: 100px;
+    width: 100px;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__value{
+        font-size: 50px;
+    }
+}

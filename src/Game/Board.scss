@@ -1,0 +1,26 @@
+.Board{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    margin-top: 200px;
+    height: 316px;
+    width: 313px;
+}
+
+.Wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.Wrapper-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    button{
+        height: 30px;
+        width: 70px;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
